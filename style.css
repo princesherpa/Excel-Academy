@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
 
 :root{
-  --navy:#0b2d6b;
-  --navy2:#071d48;
-  --gold:#f5b91b;
-  --gold2:#ffd45a;
-  --ink:#14213d;
+  --navy:#1769d1
+  --navy2:#0d47a1
+  --gold:#ffc928
+  --gold2:#ffe27a
+  --ink:#183153
   --muted:#65718a;
   --paper:#ffffff;
-  --light:#f5f7fb;
+  --light:#fffaf0
   --line:#e4e8f0;
   --shadow:0 18px 50px rgba(8,35,83,.12);
 }
