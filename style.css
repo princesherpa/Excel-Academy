@@ -18,9 +18,10 @@ a{text-decoration:none;color:inherit}
 .hero-image{min-height:360px}
 .hero-image img{width:100%;height:100%;object-fit:cover;display:block}
 .eyebrow{display:inline-block;background:#fff2bd;border-radius:22px;padding:9px 15px;font-weight:700;font-size:13px;margin-bottom:12px}
-h1{font-size:58px;line-height:1.02;letter-spacing:-2.5px;margin-bottom:10px;font-weight:800}
+h1{font-size:52px;line-height:1.02;letter-spacing:-2.5px;margin-bottom:10px;font-weight:800}
 h1 .navy{color:var(--navy)}h1 .blue{color:var(--blue)}
-.hero h2{font-size:22px;line-height:1.3;color:#092867;margin-bottom:9px}
+.hero-lower{transform:translateY(24px)}
+.hero h2{font-size:22px;line-height:1.3;color:#092867;margin-top:0;margin-bottom:9px}
 .hero-actions{display:flex;gap:15px;align-items:center;margin:18px 0 25px}
 .btn{display:inline-flex;justify-content:center;align-items:center;min-height:52px;padding:11px 22px;border-radius:30px;font-weight:700;text-align:center}
 .btn-blue{background:#0875e8;color:#fff}.btn-gold{background:var(--yellow);color:#071e58}.btn-outline{border:1.5px solid var(--navy);background:#fff;color:var(--navy)}
