@@ -11,194 +11,48 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 <header class="site-header">
   <div class="container nav-wrap">
-    <a class="brand" href="#home" aria-label="Excel Academy home">
-      <img src="assets/logo.jpg" alt="Excel Academy">
-    </a>
-
+    <a class="brand" href="#home" aria-label="Excel Academy home"><img src="assets/logo.jpg" alt="Excel Academy"></a>
     <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
-
     <nav class="nav" id="nav">
-      <a class="active" href="#home">Home</a>
-      <a href="#classes">Classes</a>
-      <a href="#about">About Us</a>
-      <a href="#why-excel">Why Excel</a>
-      <a href="#contact">Contact</a>
+      <a class="active" href="#home">Home</a><a href="#classes">Classes</a><a href="#about">About Us</a><a href="#why-excel">Why Excel</a><a href="#contact">Contact</a>
     </nav>
   </div>
 </header>
-
 <main id="home">
-
-  <section class="hero">
-    <div class="hero-bg"></div>
-    <div class="container hero-grid">
-      <div class="hero-copy">
-        <div class="eyebrow">🎓 &nbsp; QUALITY EDUCATION IN HENGRABARI, GUWAHATI</div>
-
-        <h1><span class="navy">Learn.</span> <span class="navy">Grow.</span> <span class="blue">Excel.</span></h1>
-
-        <div class="hero-lower">
-        <h2>NIOS 10th &amp; 12th Admission &nbsp;•&nbsp; Spoken English &nbsp;•<br>
-        Personality Development Classes</h2>
-
-        <div class="hero-actions">
-          <a class="btn btn-blue" href="https://wa.me/919957906408?text=Hi%20Excel%20Academy%2C%20I%20would%20like%20to%20know%20more%20about%20your%20classes." target="_blank" rel="noopener">◉ &nbsp; Enquire on WhatsApp</a>
-          <a class="btn btn-outline" href="tel:+919957906408">☎ &nbsp; Call Now<br><strong>9957906408</strong></a>
-        </div>
-
-        <div class="trust-row">
-          <span>👥 &nbsp;Personal Attention</span>
-          <span>▮▮▮ &nbsp;Practical Learning</span>
-          <span>★ &nbsp;Supportive Environment</span>
-        </div>
-        </div>
-      </div>
-
-      <div class="hero-image">
-        <img src="assets/hero-student.jpg" alt="Students learning at Excel Academy">
-      </div>
+  <section class="hero" aria-label="Excel Academy hero">
+    <div class="hero-master">
+      <img src="assets/master-hero.png" alt="Learn. Grow. Excel. — Excel Academy" class="hero-master-image">
+      <a class="hero-hotspot hero-wa" href="https://wa.me/919957906408?text=Hi%20Excel%20Academy%2C%20I%20would%20like%20to%20know%20more%20about%20your%20classes." target="_blank" rel="noopener" aria-label="Enquire on WhatsApp"></a>
+      <a class="hero-hotspot hero-call" href="tel:+919957906408" aria-label="Call Excel Academy"></a>
     </div>
   </section>
-
-  <section class="classes section-light" id="classes">
-    <div class="container">
-      <div class="section-heading centered">
-        <div class="section-kicker">OUR CLASSES</div>
-        <h2>Your Learning Journey Starts Here</h2>
-      </div>
-
-      <div class="class-grid">
-        <article class="class-card cream">
-          <div class="class-icon">▣</div>
-          <div>
-            <h3>NIOS 10th &amp; 12th<br>Admission &amp; Guidance</h3>
-            <p>Get guidance for NIOS admission and your academic journey.</p>
-            <a href="#contact">Learn More &nbsp;→</a>
-          </div>
-        </article>
-
-        <article class="class-card blue-card">
-          <div class="class-icon blue-icon">◌</div>
-          <div>
-            <h3>Spoken English Classes</h3>
-            <h4>Speak English with Confidence</h4>
-            <p>Improve your speaking, vocabulary, grammar and everyday communication.</p>
-            <a href="#contact">Learn More &nbsp;→</a>
-          </div>
-        </article>
-
-        <article class="class-card cream">
-          <div class="class-icon">▮</div>
-          <div>
-            <h3>Personality<br>Development Classes</h3>
-            <h4>Build Confidence for a Better You</h4>
-            <p>Develop communication, confidence, behaviour and life skills for personal growth.</p>
-            <a href="#contact">Learn More &nbsp;→</a>
-          </div>
-        </article>
-      </div>
+  <section class="classes section-light" id="classes"><div class="container">
+    <div class="section-heading centered"><div class="section-kicker">OUR CLASSES</div><h2>Your Learning Journey Starts Here</h2></div>
+    <div class="class-grid">
+      <article class="class-card cream"><div class="class-icon">▣</div><div><h3>NIOS 10th &amp; 12th<br>Admission &amp; Guidance</h3><p>Get guidance for NIOS admission and your academic journey.</p><a href="#contact">Learn More &nbsp;→</a></div></article>
+      <article class="class-card blue-card"><div class="class-icon blue-icon">◌</div><div><h3>Spoken English Classes</h3><h4>Speak English with Confidence</h4><p>Improve your speaking, vocabulary, grammar and everyday communication.</p><a href="#contact">Learn More &nbsp;→</a></div></article>
+      <article class="class-card cream"><div class="class-icon">▮</div><div><h3>Personality<br>Development Classes</h3><h4>Build Confidence for a Better You</h4><p>Develop communication, confidence, behaviour and life skills for personal growth.</p><a href="#contact">Learn More &nbsp;→</a></div></article>
     </div>
-  </section>
-
-  <section class="methodology" id="about">
-    <div class="container method-grid">
-      <div class="method-image">
-        <video class="methodology-video" autoplay muted loop playsinline preload="metadata" aria-label="Excel Academy students learning together"><source src="assets/methodology-video.mp4" type="video/mp4">Your browser does not support the video element.</video>
-      </div>
-      <div class="method-copy">
-        <div class="section-kicker">OUR METHODOLOGY</div>
-        <h2>Practical Learning for Real Growth</h2>
-        <p>At Excel Academy, we focus on practical, easy-to-understand learning methods that build confidence and deliver real results. Our classes are interactive, supportive and designed for everyday use.</p>
-
-        <div class="check-grid">
-          <span>✓ &nbsp; Concepts explained in simple language</span>
-          <span>✓ &nbsp; Regular practice and feedback</span>
-          <span>✓ &nbsp; Interactive and practical sessions</span>
-          <span>✓ &nbsp; Supportive learning environment</span>
-        </div>
-      </div>
+  </div></section>
+  <section class="methodology" id="about"><div class="container method-grid">
+    <div class="method-image"><video class="methodology-video" autoplay muted loop playsinline preload="metadata" aria-label="Excel Academy students learning together"><source src="assets/methodology-video.mp4" type="video/mp4">Your browser does not support the video element.</video></div>
+    <div class="method-copy"><div class="section-kicker">OUR METHODOLOGY</div><h2>Practical Learning for Real Growth</h2><p>At Excel Academy, we focus on practical, easy-to-understand learning methods that build confidence and deliver real results. Our classes are interactive, supportive and designed for everyday use.</p><div class="check-grid"><span>✓ &nbsp; Concepts explained in simple language</span><span>✓ &nbsp; Regular practice and feedback</span><span>✓ &nbsp; Interactive and practical sessions</span><span>✓ &nbsp; Supportive learning environment</span></div></div>
+  </div></section>
+  <section class="why-excel-image-page" id="why-excel" aria-label="Why Excel Academy"><div class="why-excel-art-wrap"><img src="assets/why-excel-page-no-logo.png" alt="Why Excel Academy — guidance, confidence and student success" class="why-excel-art"><a class="why-excel-cta-link" href="https://wa.me/919957906408?text=Hi%20Excel%20Academy%2C%20I%20would%20like%20to%20know%20more%20about%20your%20classes." target="_blank" rel="noopener" aria-label="Connect with Excel Academy"></a></div></section>
+  <section class="reviews" id="reviews"><div class="container">
+    <div class="section-heading"><h2>What Our Students Say</h2></div>
+    <div class="review-grid">
+      <article class="review-card"><img src="assets/review-1-ai.jpg" alt="Student"><div><p>I am very glad to inform you all that this institute is very helpful for the students who wants for the further education, best way of learning and helpful nature. Overall my experience is excellent 👍</p><strong>Sumi D' mari</strong><small>Student</small><div class="stars">★★★★★</div></div></article>
+      <article class="review-card"><img src="assets/review-2-ai.jpg" alt="Student"><div><p>Flexible Learning Options, one of the key advantages of this open school is its flexibility. Students can learn at their own pace and according to their own schedule, which is particularly beneficial for individuals who have other commitments or responsibilities.</p><strong>Imdadul Bari</strong><small>Student</small><div class="stars">★★★★★</div></div></article>
+      <article class="review-card"><img src="assets/review-3-ai.jpg" alt="Student"><div><p>Nice experience, and very supportive Mam. I am grateful to you for all of your guidance and advice ❤️. Best academy….</p><strong>Dipshika Boro</strong><small>Student</small><div class="stars">★★★★★</div></div></article>
     </div>
-  </section>
-
-  <section class="reviews" id="why-excel">
-    <div class="container">
-      <div class="section-heading">
-        <h2>What Our Students Say</h2>
-      </div>
-
-      <!-- These are temporary placeholders. Replace them with your real student reviews later. -->
-      <div class="review-grid">
-        <article class="review-card">
-          <img src="assets/review-1.jpg" alt="Student">
-          <div>
-            <p class="placeholder-review">Real student feedback will be added here.</p>
-            <strong>Student Review</strong>
-            <small>Spoken English Student</small>
-            <div class="stars">★★★★★</div>
-          </div>
-        </article>
-
-        <article class="review-card">
-          <img src="assets/review-2.jpg" alt="Student">
-          <div>
-            <p class="placeholder-review">Real student feedback will be added here.</p>
-            <strong>Student Review</strong>
-            <small>NIOS Student</small>
-            <div class="stars">★★★★★</div>
-          </div>
-        </article>
-
-        <article class="review-card">
-          <img src="assets/review-3.jpg" alt="Student">
-          <div>
-            <p class="placeholder-review">Real student feedback will be added here.</p>
-            <strong>Student Review</strong>
-            <small>Personality Development Student</small>
-            <div class="stars">★★★★★</div>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section class="cta" id="contact">
-    <div class="container cta-inner">
-      <div class="plant">🌿</div>
-      <div class="cta-copy">
-        <h2>Ready to Take the Next Step?</h2>
-        <p>Get in touch with us today and start your journey towards a brighter future.</p>
-      </div>
-      <a class="btn btn-gold" href="https://wa.me/919957906408?text=Hi%20Excel%20Academy%2C%20I%20would%20like%20to%20make%20an%20enquiry." target="_blank" rel="noopener">◉ &nbsp; Call or WhatsApp<br><strong>9957906408</strong></a>
-      <a class="btn btn-outline" href="https://www.google.com/maps/search/?api=1&query=Excel%20Academy%20Hengrabari%20Guwahati" target="_blank" rel="noopener">▣ &nbsp; Visit Our Centre<br><strong>Hengrabari, Guwahati</strong></a>
-    </div>
-  </section>
-
+  </div></section>
+  <section class="cta" id="contact"><div class="container cta-inner"><div class="plant">🌿</div><div class="cta-copy"><h2>Ready to Take the Next Step?</h2><p>Get in touch with us today and start your journey towards a brighter future.</p></div><a class="btn btn-gold" href="https://wa.me/919957906408?text=Hi%20Excel%20Academy%2C%20I%20would%20like%20to%20make%20an%20enquiry." target="_blank" rel="noopener">◉ &nbsp; Call or WhatsApp<br><strong>9957906408</strong></a><a class="btn btn-outline" href="https://www.google.com/maps/search/?api=1&query=Excel%20Academy%20Hengrabari%20Guwahati" target="_blank" rel="noopener">▣ &nbsp; Visit Our Centre<br><strong>Hengrabari, Guwahati</strong></a></div></section>
 </main>
-
-<footer>
-  <div class="container footer-top">
-    <div class="footer-brand">
-      <img src="assets/logo.jpg" alt="Excel Academy">
-    </div>
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#classes">Classes</a>
-      <a href="#about">About Us</a>
-      <a href="#why-excel">Why Excel</a>
-      <a href="#contact">Contact</a>
-    </nav>
-    <div class="social">● &nbsp; ◎ &nbsp; ▶</div>
-  </div>
-  <div class="container footer-bottom">
-    <span>© 2026 Excel Academy, Hengrabari, Guwahati. All rights reserved.</span>
-    <span>Education &nbsp; | &nbsp; Confidence &nbsp; | &nbsp; Opportunities &nbsp; | &nbsp; Excel</span>
-  </div>
-</footer>
-
+<footer><div class="container footer-top"><div class="footer-brand"><img src="assets/logo.jpg" alt="Excel Academy"></div><nav><a href="#home">Home</a><a href="#classes">Classes</a><a href="#about">About Us</a><a href="#why-excel">Why Excel</a><a href="#contact">Contact</a></nav><div class="social">● &nbsp; ◎ &nbsp; ▶</div></div><div class="container footer-bottom"><span>© 2026 Excel Academy, Hengrabari, Guwahati. All rights reserved.</span><span>Education &nbsp; | &nbsp; Confidence &nbsp; | &nbsp; Opportunities &nbsp; | &nbsp; Excel</span></div></footer>
 <script src="script.js"></script>
 </body>
 </html>
